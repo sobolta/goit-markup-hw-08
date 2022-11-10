@@ -1,0 +1,24 @@
+.btn  {
+  @include font( 16px, 700, 38px);
+  font-family: inherit;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  padding: 10px 32px;
+  border: none;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  color: var(--primary-text-light-color);
+  background-color: var(--accent-color);
+  transition: background-color var(--transition-dur-and-func);
+  
+  &:hover,
+  &:focus {
+      background-color:#188CE8;
+  }
+}

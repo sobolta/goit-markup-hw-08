@@ -1,0 +1,32 @@
+.work {
+  padding-top: 0;
+}
+
+
+.work__list {
+  display: flex;
+  column-gap: 30px ;
+}
+
+
+.work-overlay {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.work-overlay__text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 27px 0;
+  color: var(--primary-text-light-color);
+  background: rgba(47, 48, 58, 0.8);
+}
